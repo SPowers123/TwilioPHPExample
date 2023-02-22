@@ -4,7 +4,7 @@ const qs = require('querystring');
 const twilio = require('twilio');
 
 const accountSid = 'AC485d1de41a8fb1aafd19b737c8e80040';
-const authToken = 'your_auth_token_here';
+const authToken = '7903784f8011064ca649737b394b7c8c';
 const client = twilio(accountSid, authToken);
 
 const server = http.createServer((req, res) => {
