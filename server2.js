@@ -14,7 +14,7 @@ app.post('/send-message', async (req, res) => {
   try {
     const twilioResponse = await client.messages.create({
       to,
-      from: '++18333851193',
+      from: '+18333851193',
       body: message,
     });
     res.json({ success: true, response: twilioResponse });
