@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const twilio = require('twilio');
 
 const app = express();
-const client = twilio('<AC485d1de41a8fb1aafd19b737c8e80040>', '<7903784f8011064ca649737b394b7c8c>');
+const client = twilio('AC485d1de41a8fb1aafd19b737c8e80040', '7903784f8011064ca649737b394b7c8c');
 
 // Parse incoming JSON requests
 app.use(bodyParser.json());
